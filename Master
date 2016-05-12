@@ -1,3 +1,5 @@
+import random
+
 def gameMenu():
     ans=True
     while ans:
@@ -17,4 +19,10 @@ def gameMenu():
         else:
            print("\n Please Enter an Option Shown")
 
+def my_shuffle():
+        array1 = ['a','b','c','d','e','f']
+        random.shuffle(array)
+        print(array)
+        return array
 
+my_shuffle()
