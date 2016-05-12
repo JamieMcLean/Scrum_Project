@@ -1,0 +1,3 @@
+text_file = open("scores.txt",'w')
+text_file.write(scores)
+text_file.close()
