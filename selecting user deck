@@ -1,0 +1,8 @@
+def userdeck(deck):
+    for i in range (0,10):
+        userdeckTemp = random.choice(deck)
+        userDeck.append(userdeckTemp)
+    print ('\n','your deck contains: ')
+    for i in userDeck:
+        print(i,'\n')
+userdeck(deck)
