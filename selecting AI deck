@@ -1,0 +1,5 @@
+def aideck(deck):
+  for i in range(0,10):
+    aideckTemp = random.choice(deck)
+    aiDeck.append(aideckTemp)
+aideck(deck)
