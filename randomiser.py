@@ -1,9 +1,8 @@
 import random
 
 def my_shuffle():
-        array1 = ['a','b','c','d','e','f']
+        array = ['b.1','b.2','b.3','b.4','b.5','b.6']
         random.shuffle(array)
-        print(array)
-        return array
-
+        shuffledArray = array
+        return shuffledArray
 my_shuffle()
